@@ -382,7 +382,8 @@ input {
 .deals-text .deals-price p {
     font-size: 19px;
 }
-.deals-price span{
+
+.deals-price span {
     display: inline-block;
     transform: translateY(-5px);
     font-weight: 500;
@@ -398,15 +399,18 @@ input {
 .deals-text h4 span {
     font-size: 12px;
 }
-.star{
+
+.star {
     color: green;
     font-size: 20px;
 }
-.star span{
+
+.star span {
     display: inline-block;
     transform: translateY(-5px);
     color: black;
 }
+
 .deals-text button {
     width: 30%;
     padding: 12px;
@@ -658,7 +662,8 @@ input {
     cursor: pointer;
     transition: 0.3s;
 }
-.cashback-text button:hover{
+
+.cashback-text button:hover {
     background-color: rgb(24, 23, 23);
     border: 1px solid black;
 }
@@ -749,10 +754,12 @@ input {
     animation-range: entry 0% cover 40%;
     transition: 0.3s;
 }
-.visa-card-text button:hover{
+
+.visa-card-text button:hover {
     background-color: rgb(24, 23, 23);
     border: 1px solid black;
 }
+
 .visa3 {
     position: absolute;
     transform: rotate(-30deg);
@@ -1476,6 +1483,33 @@ hr {
 }
 
 @media (min-width: 690px) and (max-width: 991px) {
+     nav {
+        align-items: center;
+    }
+    .navlinks{
+        display: flex;
+        align-items: center;
+        margin-left: -30px;
+    }
+
+    .dropdown select {
+        font-size: 15px;
+    }
+    .navlink3 {
+        font-size: 15px;
+    }
+
+    .navlink1 {
+        display: none;
+    }
+
+    .navlink2 {
+        display: none;
+    }
+    .search{
+       display: none;
+    }
+
     .hero-left .shop h1 {
         font-size: 65px;
     }
@@ -1728,10 +1762,12 @@ hr {
 
     .footer {
         flex-wrap: wrap;
+        height: auto;
     }
 
     .footerlogo {
         width: 50%;
+        height: auto;
     }
 
     .payment-img {
