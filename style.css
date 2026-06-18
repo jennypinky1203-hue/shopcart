@@ -1761,7 +1761,9 @@ hr {
     .services-card {
         width: 100%;
     }
-
+    footer{
+        height: auto;
+    }
     .footer {
         flex-wrap: wrap;
         height: auto;
@@ -1937,6 +1939,9 @@ hr {
 
     .services-card-text p {
         width: 100%;
+    }
+    footer{
+        height: auto;
     }
     .footer{
         height: auto;
